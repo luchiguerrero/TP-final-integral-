@@ -1,0 +1,556 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header img {
+    width: 200px;
+}
+
+header #barra a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 23px;
+}
+
+header #barra a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 29px;
+}
+
+body {
+    background-image: url(./img/logo\ y\ fondo/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main {
+    width: 920px;
+    margin: 0 auto;
+    padding: 4em 0;
+}
+
+
+
+
+
+
+/*menú principal*/
+
+
+#caja1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.servicios {
+    display: flex;
+    gap: 20px;
+}
+
+#caja1 article {
+    width: 230px;
+    height: 310px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 10px 2px 0 2px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.servicios article img {
+    width: 210px;
+    height: 60%;
+    margin-bottom: 20px;
+}
+
+#aside1 {
+    margin-left: 30px;
+}
+
+
+
+
+
+/*Novedades*/
+
+#caja1 .noticias {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px;
+    margin-top: 15px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+#caja1 .noticias a {
+    background: rgb(96, 152, 197, 0.5);
+    color: white;
+    border-radius: 10px;
+    padding: 2px;
+    text-decoration: none;
+}
+
+#caja1 .noticias div {
+    margin-top: 10px;
+}
+
+
+/*tabla de productos mas vendidos*/
+
+#tablaproductos {
+    width: 890px;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px;
+    margin-top: 15px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+
+}
+
+table {
+    width: 800px;
+    text-align: center;
+}
+
+table tr {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+
+
+/*Grupo*/
+
+.integrantes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+    color: white;
+
+}
+
+.integrantes img {
+    border-radius: 80px;
+    width: 150px;
+    margin-left: 20px;
+}
+
+.integrantes .info {
+    width: 250px;
+    height: 70px;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    float: right;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+/*productos*/
+
+#utilesescolares .utiles,
+.utiles1 {
+    float: left;
+}
+
+#utilesescolares .utiles {
+    width: 200px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: 0 10px 20px 10px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease;
+}
+
+#utilesescolares .utiles1 {
+    width: 200px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-bottom: 60px;
+    margin-left: 10px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease;
+}
+
+#utilesescolares .utiles:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+#utilesescolares .utiles1:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+#utilesescolares article img {
+    width: 200px;
+    height: 60%;
+    margin-bottom: 10px;
+}
+
+#utilesescolares .utiles a,
+.utiles1 a {
+    text-decoration: none;
+    background: rgb(96, 152, 197, 0.5);
+    color: white;
+    border-radius: 13px;
+    padding: 7px;
+}
+
+#utilesescolares .utiles p,
+.utiles1 p {
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+/*nosotros*/
+
+.quienessomos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    height: 650px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.quienessomos article p {
+    margin-top: 15px;
+}
+
+.quienessomos img {
+    margin-top: 20px;
+    align-self: center;
+    width: 900px;
+
+}
+
+.informacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.informacion .iconos {
+    margin: 0 50px 0 50px;
+}
+
+.informacion .iconos i {
+    font-size: 40px;
+}
+
+#aside2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#aside2 img {
+    width: 800px;
+}
+
+/*caja de registro*/
+
+#registro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cajaregistro {
+    width: 450px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+/*caja de formulario*/
+
+.formulario h2 {
+    margin-top: 70px;
+}
+
+.formulario {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.formulario form .espacio input {
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    border: none;
+
+}
+
+.formulario form .generos,
+.terminos {
+    margin-top: 10px;
+}
+
+.formulario form .espacio input::placeholder {
+    padding: 3px;
+    color: white;
+}
+
+.generos {
+    color: white;
+}
+
+.terminos {
+    color: white;
+}
+
+
+
+
+
+
+
+/*boton*/
+
+.submitsignup {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.submitsignup input {
+    color: white;
+    background: rgba(112, 173, 223, 0.5);
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    border: none;
+}
+
+.submitsignup input:hover {
+    color: rgb(0, 0, 0);
+    background: rgb(228, 225, 225);
+
+}
+
+
+
+
+
+
+
+/*login*/
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cajalogin {
+    width: 400px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.logearse {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logearse h2 {
+    margin-top: 50px;
+
+}
+
+.espacio input {
+    color: white;
+    width: 250px;
+    margin-top: 10px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    border: none;
+}
+
+.espacio ::placeholder {
+    color: white;
+    padding: 5px;
+}
+
+#aside3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#aside3 a img {
+    width: 800px;
+
+}
+
+
+
+
+
+
+
+/*contactos*/
+#cajacontacto {
+    width: 550px;
+    height: 570px;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contactanos {
+    text-align: center;
+    color: white;
+    padding: 0 50px;
+    margin-top: 50px;
+}
+
+.contactanos form .espacio input {
+    width: 380px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.mensaje textarea {
+    margin-top: 20px;
+    width: 378px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+/*contacto comunidad*/
+
+#cajacolibri {
+    width: 80%;
+    height: 250px;
+    background: rgba(0, 0, 0, 0.4);
+    margin-top: 50px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+#colibri {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.comunidad {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 15px;
+}
+
+.comunidad h1 {
+    font-size: 40px;
+}
+
+.email input {
+    width: 500px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+
+
+
+
+/*pie de pagina*/
+
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    height: auto;
+    padding: 50px 20px 50px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    font-size: 17px;
+
+}
+
+footer .paginas a {
+    font-size: 35px;
+    color: white;
+}
+
+footer img {
+    width: 420px;
+}
+
+#colibrigrande img {
+    width: 150px;
+    height: 150px;
+}
+
+#infolibreria {
+    width: 350px;
+}
